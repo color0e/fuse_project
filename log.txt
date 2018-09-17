@@ -1,0 +1,70 @@
+﻿C:\Users\color0e\Documents\Fabric>fuse build --target=Android --trace
+Uno 1.9.0 (dev-build) Windows 10 x64 N/A
+Copyright (C) 2015-2018 Fusetools
+
+
+Configuring
+  0.52 s
+Compiling syntax tree
+  1.88 s
+Generating code and data
+  3.33 s
+Building Android app
+
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+
+(unknown): E0200: Android build failed
+
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:checkDebugManifest UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:prepareLintJar UP-TO-DATE
+:app:mainApkListPersistenceDebug UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:createDebugCompatibleScreenManifests UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:splitsDiscoveryTaskDebug UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:javaPreCompileDebug UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:generateJsonModelDebug UP-TO-DATE
+:app:externalNativeBuildDebug
+Build Fabric armeabi-v7a
+ninja: no work to do.
+:app:compileDebugSources
+:app:mergeDebugShaders UP-TO-DATE
+:app:compileDebugShaders UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug UP-TO-DATE
+:app:transformDexArchiveWithDexMergerForDebug UP-TO-DATE
+:app:mergeDebugJniLibFolders UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:app:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:app:validateSigningDebug UP-TO-DATE
+:app:packageDebug UP-TO-DATE
+:app:assembleDebug
+
+BUILD SUCCESSFUL in 1s
+29 actionable tasks: 1 executed, 28 up-to-date
+지정된 파일을 찾을 수 없습니다.
+2.92 s
+
+Build completed in 8.67 seconds
+    1 error
+
+fuse: Errors were encountered while building the project
+
+C:\Users\color0e\Documents\Fabric>
